@@ -6,7 +6,7 @@ $ SCF_Energy
    description: The SCF energy
    geom. index: 1
    prop. index: 1
-        SCF Energy:      -75.9593403108
+        SCF Energy:      -75.9593403135
 # -----------------------------------------------------------
 $ Mayer_Pop
    description: The Mayer population analysis
@@ -24,11 +24,11 @@ $ Mayer_Pop
   ATOM       NA         ZA         QA         VA         BVA        FA
   0   0     8.3762     8.0000    -0.3762     1.9755     1.9755    -0.0000
   1   0     0.8119     1.0000     0.1881     0.9955     0.9955    -0.0000
-  2   0     0.8119     1.0000     0.1881     0.9955     0.9955    -0.0000
+  2   0     0.8119     1.0000     0.1881     0.9955     0.9955     0.0000
       Bond orders larger than 0.1000000
            Atom A     A.N. of A          Atom B    A.N. of B              Bond order
-                0             8               1            1                0.987759
-                0             8               2            1                0.987759
+                0             8               1            1                0.987758
+                0             8               2            1                0.987758
 # -----------------------------------------------------------
 $ Calculation_Info
    description: Details of the calculation
@@ -56,12 +56,12 @@ $ SCF_Electric_Properties
        Do Quadrupole Moment Calculation  : false 
        Do Polarizability Calculation     : false 
 ** Dipole moment part of electric properties **
-        Magnitude of dipole moment (Debye) :        2.0663889879
+        Magnitude of dipole moment (Debye) :        2.0663970182
         Electronic Contribution:
                   0    
       0       0.000000
       1      -0.000000
-      2       0.119114
+      2       0.119111
         Nuclear Contribution:
                   0    
       0       0.000000
@@ -71,7 +71,7 @@ $ SCF_Electric_Properties
                   0    
       0       0.000000
       1      -0.000000
-      2      -0.812963
+      2      -0.812967
 # -------------------------------------------------------------
 ----------------------- !GEOMETRIES! ------------------------
 # -------------------------------------------------------------
